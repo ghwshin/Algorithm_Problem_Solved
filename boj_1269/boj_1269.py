@@ -1,0 +1,6 @@
+a = input().split(' ')
+an = int(a[0])
+bn = int(a[1])
+a_s = set([int(i) for i in input().split(' ')])
+b_s = set([int(i) for i in input().split(' ')])
+print(len(a_s.symmetric_difference(b_s)))
